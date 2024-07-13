@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+  border: 1px dotted red;
+  display: flex;
+}
+.navbar {
+  width: 50%;
+  padding: 48px 0 0 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 190px;
+}
+.image-container {
+  width: 50%;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul {
+  display: flex;
+  gap: 49px;
+}
+.navbar .li-first {
+    white-space: nowrap;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-right: 90px;
+}
+.navbar .li-second {
+  color: #122649;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 9px;
+}
+h4 {
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+}
+p{
+    margin-top: 20px;
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+}
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+    }
+}
